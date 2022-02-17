@@ -11,7 +11,7 @@ public class DistinctStringTests {
 
     //      Given test cases
     List<String> stringList = new ArrayList<>(Arrays.asList("java", "scala", "java", "clojure", "clojure"));
-    List<String> stringList2 = new ArrayList<>(Arrays.asList("the", "tree", "the", "tree", "the", "tree","an","an","a"));
+    List<String> stringList2 = new ArrayList<>(Arrays.asList("the", "three", "the", "three", "the", "three","an","an","a"));
 
     @Test
     public void shouldReturnDistinct(){
